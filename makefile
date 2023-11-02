@@ -21,4 +21,5 @@ clean:
 .PHONY: all_images
 all_images: square_wave.png fibonachi.png
 
-lint
+lint:
+	pylint bin/
